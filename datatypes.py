@@ -18,4 +18,5 @@ varfrozenset = (("One piece", "Naruto","Bleach"))
 varbool = bool(0)
 
 
+
 #byte, bytearray, memoryview, complex are not used as much as other data types and as for beginners they arent that nessesary to learn.

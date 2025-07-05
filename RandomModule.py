@@ -21,4 +21,6 @@ print(random.sample(nums, 2))# picks unique elements unlike above one
 
 nums = [1, 2, 3, 4]
 random.shuffle(nums)#used to shuffle the list
+
+
 print(nums)

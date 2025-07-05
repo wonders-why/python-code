@@ -17,3 +17,4 @@ print(variablesInt, varFloat)
 #all the variables above are global and can be accessed everywhere in the code
 # a Variable inside a fucntion or loop is local and not accesible outside them
 # we can only use 1-0, a-z, _ to create variables 
+
