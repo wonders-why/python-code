@@ -1,6 +1,4 @@
-import random
-x = int(input("Enter the Start numbers :"))
-y = int(input("Enter the End number :"))
-z = range(x, y)
-
-print(f"The random number is : {random.choice(z)}")
+x = ["y","x","z"]
+for alp in x:
+    print(alp)
+else: print("The loop is over")
