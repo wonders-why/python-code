@@ -1,21 +1,22 @@
-#lets learn to copy lists
+# Let's learn to copy lists
 
 a = ["Deepak", "Daniel", "Ash"]
-b = a# this doesnt copies the list but makes a reference to it like it happens in funtion. if the value of a changes it will reflect on b aswell
+b = a  # This does NOT copy the list; it creates a reference to the same list
 print(b)
 
 a.append("Asta")
-print(b)
+print(b)  # b also reflects the change because it's the same list reference
 
-"""So how can we copy it? we can use a function called copy"""
+"""How to properly copy a list"""
 
-c = a.copy() # other things we can use is
-d = list(b)# using list funtion
-e = c[:]#using slicing
+c = a.copy()    # Using the copy() method
+d = list(b)     # Using the list() constructor
+e = c[:]        # Using slicing
+
 a.append("HI")
-print(a, c)
+print(a, c)  # 'a' changed but 'c' remains unchanged because it's a copy
 
-#this is similiar to slicing lissts but easier
+# Similar to slicing but manual copying using a loop
 thislist = ["apple", "banana", "cherry"]
 mylist = []
 

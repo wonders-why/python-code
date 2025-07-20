@@ -1,0 +1,42 @@
+🔹 add(item)
+Adds a single item to the set. If the item already exists, it won’t be added again.
+
+🔹 update(iterable)
+Adds multiple items to the set from another iterable (like a list, tuple, or another set).
+
+🔹 union(other_set) or |
+Returns a new set containing all unique elements from both sets.
+
+🔹 intersection(other_set) or &
+Returns a new set with only the elements common to both sets.
+
+🔹 intersection_update(other_set)
+Keeps only the elements found in both sets; modifies the original set.
+
+🔹 difference(other_set) or -
+Returns a new set with elements in the first set but not in the second.
+
+🔹 difference_update(other_set)
+Removes elements from the original set that are also in the other set.
+
+🔹 symmetric_difference(other_set) or ^
+Returns a new set with elements in either set, but not in both.
+
+🔹 symmetric_difference_update(other_set)
+Updates the original set to contain only the non-duplicate elements from both sets.
+
+🔹 remove(item)
+Removes the item from the set. Throws an error if the item is not present.
+
+🔹 discard(item)
+Removes the item from the set. Does not throw an error if the item is not present.
+
+🔹 pop()
+Removes and returns a random item from the set.
+
+🔹 clear()
+Removes all items from the set, leaving it empty.
+
+🔹 del
+Deletes the set completely from memory.
+

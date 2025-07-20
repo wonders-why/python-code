@@ -1,19 +1,23 @@
-#traversal is the fucntion to display all the values present in the data structure which can be done using loops
+# Traversal means displaying all values present in a data structure,
+# which can be done using loops.
 
-list = [1,2,3,4,5]
+list = [1, 2, 3, 4, 5]
 
-#for each loop
+# For-each loop
 for x in list:
     print(x)
 
-#while using the range and len funtion
+# Using range() and len() functions
 for x in range(len(list)):
     print(list[x])
 
-#using while loop
+# Using while loop
 x = 0
 while x < len(list):
     print(list[x])
     x += 1
-    
-[print (x) for x in list]
+
+# List comprehension shorthand for printing
+[print(x) for x in list]
+
+# Let's do list comprehensions in detail later

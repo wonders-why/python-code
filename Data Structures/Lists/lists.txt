@@ -1,0 +1,49 @@
+🧠 List Methods & Concepts Used (Theory Only)
+insert(index, value)
+Inserts a value at the specified index without replacing existing elements.
+
+append(value)
+Adds a value at the end of the list.
+
+extend(iterable)
+Adds elements from another iterable (list, tuple, set, etc.) to the end of the list.
+
+remove(value)
+Removes the first occurrence of the specified value.
+
+pop(index)
+Removes and returns the item at the given index; if no index is provided, removes the last item.
+
+clear()
+Removes all items from the list, leaving it empty.
+
+del statement
+Deletes an item at a specific index or the entire list.
+
+sort()
+Sorts the list in ascending order by default.
+
+sort(reverse=True)
+Sorts the list in descending order.
+
+sort(key=func)
+Sorts the list based on a key function (e.g., case-insensitive sorting with str.upper).
+
+copy()
+Creates a shallow copy of the list.
+
+list() constructor
+Can be used to create a new list or copy an existing iterable.
+
+Slicing ([:])
+Creates a shallow copy of the list.
+
+Traversal concepts:
+
+For-each loop
+
+For loop with range() and len()
+
+While loop
+
+List comprehension (for iteration and printing)
